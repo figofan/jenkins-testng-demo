@@ -6,6 +6,6 @@ public class LibraryTestNGTest {
   @Test(groups = { "testng" })
   public void f() {
 	  Library classUnderTest = new Library();
-      assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
+      assertTrue(!classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
   }
 }
