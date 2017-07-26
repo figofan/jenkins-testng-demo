@@ -28,7 +28,8 @@ dependencies {
     compile 'org.testng:testng:6.8.17'  
 }
 
-task testNG {
- 	 useTestNG()
+test {
+    println 'starting testNG tests...'
+ 	useTestNG()
 }
 
