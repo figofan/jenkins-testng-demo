@@ -29,7 +29,6 @@ dependencies {
 }
 
 test {
-    println 'starting testNG tests...'
  	useTestNG()
 }
 
